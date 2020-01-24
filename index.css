@@ -125,8 +125,33 @@ li {
 .contactBegin {
     text-align: center;
     font-weight: bold;
-    margin: 225px auto auto 5px;
+    margin: 225px auto 15px auto;
 }
+
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.paperplane {
+    width: auto;
+    height: 40px;
+}
+
+.gitLogo {
+    width: auto;
+    height: 40px;
+}
+
+.linkedLogo {
+    width: auto;
+    height: 30px;
+}
+
+
 
 
 @media screen and (min-width: 400px) {
