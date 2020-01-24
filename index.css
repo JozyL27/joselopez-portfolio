@@ -76,7 +76,7 @@ li {
 .descriptionParas {
     font-size: 11px;
     width: 100%;
-    margin-top: 130px;
+    margin-top: 180px;
 }
 
 .firstPara {
@@ -86,7 +86,8 @@ li {
 
 .projectsBegin {
     text-align: center;
-    margin-top: 110px;
+    font-weight: bold;
+    margin-top: 160px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -119,6 +120,12 @@ li {
 .techpic {
     width: auto;
     height: 40px;
+}
+
+.contactBegin {
+    text-align: center;
+    font-weight: bold;
+    margin: 225px auto auto 5px;
 }
 
 
