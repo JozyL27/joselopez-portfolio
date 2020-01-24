@@ -15,13 +15,15 @@
 
 <body>
 
+    
+
     <main class="mainContainer" role="About me, my projects, and a few of my pictures">
     <div class="headContainer">
             <nav role="navigation">
             <ul class="links">
-            <li><a id="nameAnchor" class="sideLink" href="#anchor">Jose Lopez</a></li>
-            <li><a id="projectsAnchor" class="sideLink" href="#">Projects</a></li>
-            <li><a id="contactAnchor" class="sideLink" href="#">Contact</a></li>
+            <li><a class="sideLink" href="#anchor">Jose Lopez</a></li>
+            <li class="scrollMe" type="button"><a class="sideLink" href="#">Projects</a></li>
+            <li class="scrollMe2" type="button"><a class="sideLink" href="#">Contact</a></li>
             </ul>
             </nav>
             <div class="insta">
@@ -39,7 +41,7 @@
         Lover of <br> photography, craft beer, minimalist design, and the <br> English Premier League (Arsenal)!</p>
     </section>
 
-    <p class="projectsBegin">Projects</p>
+    <p class="projectsBegin" id="projScroll">Projects</p>
     <div class="projectPic1">
         <a href="https://thinkful-ei-leopard.github.io/joselopez-bookmarks-app/">
         <img class ="keeplyPicture" src="myPics/Screen Shot 2020-01-22 at 10.43.42 AM copy.png" alt="Screenshot of Keeply application" >
@@ -53,7 +55,7 @@
 
     
 
-    <p class="contactBegin"> Contact </p>
+    <p class="contactBegin" id="conScroll"> Contact </p>
     <footer class="contactContainer" role="contact information">
         <address class="emailInfo">
             <a href="mailto:jozylopez27@gmail.com">
@@ -74,6 +76,18 @@
     
 
 
-    <script> src="index.js" </script>
+
+
+
+
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 </body>
 </html>
