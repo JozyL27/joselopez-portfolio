@@ -23,7 +23,6 @@ li {
 
 .nameitem {
     font-weight: bold;
-    font-size: 13px;
 }
 
 
@@ -50,6 +49,7 @@ li {
     align-self: flex-start;
     font-size: 13px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 
