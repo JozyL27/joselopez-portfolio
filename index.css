@@ -21,10 +21,6 @@ li {
     cursor: pointer;
 }
 
-.nameitem {
-    font-weight: bold;
-}
-
 
 .mainContainer {
     display: flex;
