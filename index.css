@@ -21,11 +21,17 @@ li {
     cursor: pointer;
 }
 
+.nameitem {
+    font-weight: bold;
+    font-size: 13px;
+}
+
 .myPictures {
     display: block;
-    margin: 0 auto 0 30px;
+    margin: 0 auto 0 35px;
     width: auto;
     height: 170px;
+    cursor: pointer;
 }
 
 .myPictures:hover {
@@ -57,6 +63,7 @@ li {
 .sideLink {
     align-self: flex-start;
     font-size: 13px;
+    cursor: pointer;
 }
 
 .insta {
@@ -79,7 +86,7 @@ li {
 .projectsBegin {
     text-align: center;
     font-weight: bold;
-    margin-top: 240px;
+    margin-top: 290px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -117,7 +124,7 @@ li {
 .contactBegin {
     text-align: center;
     font-weight: bold;
-    margin: 525px auto 15px auto;
+    margin: 430px auto 15px auto;
 }
 
 
