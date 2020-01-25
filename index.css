@@ -51,6 +51,7 @@ li {
 .headContainer {
     display: flex;
     margin-top: 70px;
+    justify-content: space-evenly;
 }
 
 .links {
@@ -67,7 +68,7 @@ li {
 }
 
 .insta {
-    align-self: flex-end;
+    /* align-self: flex-end; */
     width: auto;
 }
 
@@ -153,12 +154,13 @@ li {
 footer {
     text-align: center;
     font-size: 14px;
+    line-height: 1.5;
 }
 
 
 
 
-
+/* Tablets */
 @media screen and (min-width: 400px) {
  
     .myPictures {}
