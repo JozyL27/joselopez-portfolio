@@ -196,17 +196,75 @@ footer {
 /* Tablets */
 @media only screen and (min-device-width : 600px) and (max-device-width : 1024px) {
  
-    .myPictures {}
+    .collageImgs {
+        width: auto;
+        height: 140px;
+        margin-left: 10px;
+    }
 
-    .descriptionParas {}
+    .sideLink {
+        font-size: 25px;
+    }
 
-    .firstPara {}
+    .links {
+        position: relative;
+        align-self: flex-start;
+        top: 78px;
+        right: 10px;
+    }
 
-    .projectsBegin {}
+    .aboutSpan {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
 
-    .keeplyPicture {}
+    .descriptionParas {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 240px;
+    }
 
-    .keeplyInfo {}
+    .projectsBegin {
+        font-size: 22px;
+    }
+
+    .keeplyPicture {
+        height: 330px;
+    }
+
+    .keeplyInfo {
+        font-size: 18px;
+    }
+
+    .techpic {
+        height: 100px;
+    }
+
+    .contactBegin {
+        font-size: 25px;
+        margin: 560px auto 15px auto;
+    }
+
+    .paperplane {
+        width: auto;
+        height: 60px;
+    }
+    
+    .gitLogo {
+        width: auto;
+        height: 60px;
+    }
+    
+    .linkedLogo {
+        width: auto;
+        height: 50px;
+    }
+
+    footer {
+        font-size: 22px;
+        line-height: 1.5;
+    }
 }
 
 
@@ -214,5 +272,9 @@ footer {
 
 
 
-/* Desktops */
-@media only screen and (min-device-width : 1025px) {}
+/* Small Laptops */
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1400px) {}
+
+
+/* Laptops / Desktops */
+@media only screen and (min-device-width : 1401px)
