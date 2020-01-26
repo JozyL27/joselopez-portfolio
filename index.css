@@ -99,6 +99,18 @@ li {
     height: 55px;
 }
 
+.keeplyGit {
+    margin-top: 5px;
+    width: auto;
+    height: 40px;
+    text-align: center;
+}
+
+.keeplyGitPic:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+  }
+
 .contactBegin {
     text-align: center;
     font-size: 20px;
@@ -258,6 +270,11 @@ footer {
         height: 100px;
     }
 
+    .keeplyGit{
+        width: auto;
+        height: 60px;
+    }
+
     .contactBegin {
         font-size: 25px;
         margin: 560px auto 15px auto;
@@ -339,6 +356,11 @@ footer {
 
     .techpic {
         height: 140px;
+    }
+
+    .keeplyGit{
+        width: auto;
+        height: 60px;
     }
 
     .contactBegin {
@@ -430,6 +452,11 @@ footer {
 
     .techpic {
         height: 140px;
+    }
+
+    .keeplyGit {
+        width: auto;
+        height: 60px;
     }
 
     .contactBegin {
