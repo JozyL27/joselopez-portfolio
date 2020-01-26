@@ -70,12 +70,6 @@ li {
     margin-bottom: 70px;
 }
 
-.keeplyTitle {
-    text-align: center;
-    font-weight: bold;
-    font-size: 17px;
-}
-
 .keeplyPicture {
     width: auto;
     height: 180px;
@@ -264,10 +258,6 @@ footer {
         font-size: 25px;
     }
 
-    .keeplyTitle {
-        font-size: 20px;
-    }
-
     .keeplyPicture {
         height: 330px;
     }
@@ -354,10 +344,6 @@ footer {
     .projectsBegin {
         font-size: 33px;
         margin-top: 420px;
-    }
-
-    .keeplyTitle {
-        font-size: 26px;
     }
 
     .keeplyPicture {
@@ -462,10 +448,6 @@ footer {
 
     .keeplyInfo {
         font-size: 20px;
-    }
-
-    .keeplyTitle {
-        font-size: 27px;
     }
 
     .techpic {
