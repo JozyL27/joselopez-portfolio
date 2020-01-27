@@ -257,106 +257,13 @@ footer {
 
 
 
-
-
-
-/* Small Laptops */
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1400px) {
-    .headContainer {
-        margin-top: 100px;
-    }
-    
-    .collageImgs {
-        width: auto;
-        height: 200px;
-        margin-left: 10px;
-    }
-
-    .sideLink {
-        font-size: 30px;
-    }
-
-    .links {
-        position: relative;
-        align-self: flex-start;
-        top: 120px;
-        right: 10px;
-    }
-
-    .aboutSpan {
-        font-size: 25px;
-        font-weight: bold;
-    }
-    
-
-    .descriptionParas {
-        font-size: 22px;
-        width: 100%;
-        margin-top: 330px;
-    }
-
-    .projectsBegin {
-        font-size: 33px;
-        margin-top: 420px;
-    }
-
-    .keeplyPicture {
-        height: 420px;
-    }
-
-    .keeplyInfo {
-        font-size: 20px;
-    }
-
-    .techpic {
-        height: 140px;
-    }
-
-    .keeplyGit{
-        width: auto;
-        height: 60px;
-    }
-
-    .contactBegin {
-        font-size: 28px;
-        margin: 560px auto 15px auto;
-    }
-
-    .contactContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        margin-bottom: 320px;
-    }
-    
-
-    .paperplane {
-        width: auto;
-        height: 60px;
-        margin-top: 5px;
-    }
-    
-    .gitLogo {
-        width: auto;
-        height: 60px;
-        margin-top: 20px;
-    }
-    
-    .linkedLogo {
-        width: auto;
-        height: 50px;
-        margin-top: 20px;
-    }
-
-    footer {
-        font-size: 20px;
-        line-height: 1.5;
-    } 
-}
-
 /* Tablets */
 @media only screen and (min-device-width : 600px) and (max-device-width : 1023px) {
+
+    .headContainer {
+        flex-direction: row;
+        margin-top: 100px;
+    }
  
     .collageImgs {
         width: auto;
@@ -371,7 +278,7 @@ footer {
     .links {
         position: relative;
         align-self: flex-start;
-        top: 78px;
+        top: 0px;
         right: 10px;
     }
 
@@ -384,7 +291,7 @@ footer {
     .descriptionParas {
         font-size: 16px;
         width: 100%;
-        margin-top: 240px;
+        margin-top: 390px;
     }
 
     .projectsBegin {
@@ -442,7 +349,8 @@ footer {
 /* Small Laptops */
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1400px) {
     .headContainer {
-        margin-top: 100px;
+        margin-top: 120px;
+        flex-direction: row;
     }
     
     .collageImgs {
@@ -458,7 +366,7 @@ footer {
     .links {
         position: relative;
         align-self: flex-start;
-        top: 120px;
+        top: 0px;
         right: 10px;
     }
 
@@ -471,7 +379,7 @@ footer {
     .descriptionParas {
         font-size: 22px;
         width: 100%;
-        margin-top: 330px;
+        margin-top: 570px;
     }
 
     .projectsBegin {
@@ -539,12 +447,14 @@ footer {
 @media only screen and (min-device-width : 1401px) {
     .headContainer {
         margin-top: 100px;
+        flex-direction: row;
     }
     
     .collageImgs {
         width: auto;
         height: 240px;
         margin-left: 10px;
+        position: relative;
     }
 
     .sideLink {
@@ -554,7 +464,7 @@ footer {
     .links {
         position: relative;
         align-self: flex-start;
-        top: 160px;
+        top: 0px;
         right: 10px;
     }
 
