@@ -52,7 +52,7 @@ li {
 .descriptionParas {
     font-size: 14px;
     width: 100%;
-    margin-top: 180px;
+    margin-top: 230px;
 }
 
 .firstPara {
@@ -220,7 +220,144 @@ footer {
   }
 
 
+/* Mobile Phones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 599px) {
+    .headContainer {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 
+    .collageImgs {
+        width: auto;
+        height: 140px;
+        margin-left: 0 auto;
+    }
+
+    .sideLink {
+        font-size: 20px;
+    }
+
+    .links {
+        position: relative;
+        align-self: flex-start;
+        top: 600px;
+        text-align: center;
+    }
+
+    .aboutSpan {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+
+    .descriptionParas {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 580px;
+    }
+}
+
+
+
+
+
+
+/* Small Laptops */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1400px) {
+    .headContainer {
+        margin-top: 100px;
+    }
+    
+    .collageImgs {
+        width: auto;
+        height: 200px;
+        margin-left: 10px;
+    }
+
+    .sideLink {
+        font-size: 30px;
+    }
+
+    .links {
+        position: relative;
+        align-self: flex-start;
+        top: 120px;
+        right: 10px;
+    }
+
+    .aboutSpan {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+
+    .descriptionParas {
+        font-size: 22px;
+        width: 100%;
+        margin-top: 330px;
+    }
+
+    .projectsBegin {
+        font-size: 33px;
+        margin-top: 420px;
+    }
+
+    .keeplyPicture {
+        height: 420px;
+    }
+
+    .keeplyInfo {
+        font-size: 20px;
+    }
+
+    .techpic {
+        height: 140px;
+    }
+
+    .keeplyGit{
+        width: auto;
+        height: 60px;
+    }
+
+    .contactBegin {
+        font-size: 28px;
+        margin: 560px auto 15px auto;
+    }
+
+    .contactContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 320px;
+    }
+    
+
+    .paperplane {
+        width: auto;
+        height: 60px;
+        margin-top: 5px;
+    }
+    
+    .gitLogo {
+        width: auto;
+        height: 60px;
+        margin-top: 20px;
+    }
+    
+    .linkedLogo {
+        width: auto;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+        line-height: 1.5;
+    } 
+}
 
 /* Tablets */
 @media only screen and (min-device-width : 600px) and (max-device-width : 1023px) {
