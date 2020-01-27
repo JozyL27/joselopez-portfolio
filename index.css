@@ -28,14 +28,8 @@ li {
     flex-direction: column;
 }
 
-/* .headContainer {
-    display: flex;
-    margin-top: 70px;
-    justify-content: space-evenly;
-} */
-
 .headContainer {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,12 +50,6 @@ li {
     font-weight: bold;
 }
 
-
-/* .descriptionParas {
-    font-size: 14px;
-    width: 100%;
-    margin-top: 230px;
-} */
 
 .descriptionParas {
     font-size: 16px;
@@ -236,13 +224,7 @@ footer {
 
 /* Mobile Phones */
 @media only screen and (min-device-width : 320px) and (max-device-width : 599px) {
-    /* .headContainer {
-        margin-top: 10px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    } */
-
+  
     .collageImgs {
         width: auto;
         height: 140px;
