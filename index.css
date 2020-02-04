@@ -444,7 +444,7 @@ footer {
 
 
 /* Laptops / Desktops */
-@media only screen and (min-device-width : 1401px) {
+@media only screen and (min-device-width : 1401px) and (max-device-width : 2400px){
     .headContainer {
         margin-top: 100px;
         flex-direction: row;
