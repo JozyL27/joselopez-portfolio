@@ -3,6 +3,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Mobile Phones */ 
+
 
 a {
     text-decoration: none;
@@ -221,10 +223,7 @@ footer {
     transition-duration: 0.4s;
   }
 
-
-/* Mobile Phones */
-@media only screen and (min-device-width : 320px) and (max-device-width : 599px) {
-  
+ 
     .collageImgs {
         width: auto;
         height: 140px;
@@ -253,8 +252,6 @@ footer {
         width: 100%;
         margin-top: 580px;
     }
-}
-
 
 
 /* Tablets */
