@@ -92,6 +92,7 @@ li {
 .aboutSpan {
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
 }
 
 .techContainer {
