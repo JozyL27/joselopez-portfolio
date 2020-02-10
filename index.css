@@ -132,6 +132,7 @@ li {
     margin-bottom: 300px;
 }
 
+
 .paperplane {
     width: auto;
     height: 40px;
@@ -219,6 +220,7 @@ footer {
       margin-left: 10px;
   }
 
+
   .collageImgs:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transition-duration: 0.4s;
@@ -254,10 +256,32 @@ footer {
         margin-top: 580px;
     }
 
+    .liveSite {
+        text-align: center;
+        margin-top: 40px;
+        font-weight: bold;
+        line-height: 1.5;
+        font-size: 16px;
+    }
+
+    .githubLink {
+        cursor: pointer;
+        color: rgb(0,204,0);
+    }
+
+    .githubLink:hover {
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-size: large;
+        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
 
 /* Tablets */
 /* @media only screen and (min-device-width : 600px) and (max-device-width : 1023px) { */
-    @media only screen and (min-device-width : 600px) {
+    @media screen and (min-width : 600px) {
 
     .headContainer {
         flex-direction: row;
@@ -265,7 +289,6 @@ footer {
     }
  
     .collageImgs {
-        width: auto;
         height: 140px;
         margin-left: 10px;
     }
@@ -275,8 +298,6 @@ footer {
     }
 
     .links {
-        position: relative;
-        align-self: flex-start;
         top: 0px;
         right: 10px;
     }
@@ -288,8 +309,6 @@ footer {
     
 
     .descriptionParas {
-        font-size: 16px;
-        width: 100%;
         margin-top: 390px;
     }
 
@@ -320,17 +339,14 @@ footer {
     }
 
     .paperplane {
-        width: auto;
         height: 60px;
     }
     
     .gitLogo {
-        width: auto;
         height: 60px;
     }
     
     .linkedLogo {
-        width: auto;
         height: 50px;
     }
 
@@ -338,6 +354,15 @@ footer {
         font-size: 22px;
         line-height: 1.5;
     }
+
+    .liveSite {
+        font-size: 18px;
+    }
+
+    .githubLink:hover {
+        font-size: 20px;
+    }
+
 }
 
 
@@ -347,14 +372,13 @@ footer {
 
 /* Small Laptops */
 /* @media only screen and (min-device-width : 1024px) and (max-device-width : 1400px) { */
-    @media only screen and (min-device-width : 1024px) {
+    @media screen and (min-width : 1024px) {
     .headContainer {
         margin-top: 120px;
         flex-direction: row;
     }
     
     .collageImgs {
-        width: auto;
         height: 200px;
         margin-left: 10px;
     }
@@ -364,8 +388,6 @@ footer {
     }
 
     .links {
-        position: relative;
-        align-self: flex-start;
         top: 0px;
         right: 10px;
     }
@@ -378,7 +400,6 @@ footer {
 
     .descriptionParas {
         font-size: 22px;
-        width: 100%;
         margin-top: 570px;
     }
 
@@ -419,19 +440,16 @@ footer {
     
 
     .paperplane {
-        width: auto;
         height: 60px;
         margin-top: 5px;
     }
     
     .gitLogo {
-        width: auto;
         height: 60px;
         margin-top: 20px;
     }
     
     .linkedLogo {
-        width: auto;
         height: 50px;
         margin-top: 20px;
     }
@@ -440,19 +458,26 @@ footer {
         font-size: 20px;
         line-height: 1.5;
     }
+
+    .liveSite {
+        font-size: 18px;
+    }
+
+    .githubLink:hover {
+        font-size: 22px;
+    }
 }
 
 
 /* Laptops / Desktops */
 /* @media only screen and (min-device-width : 1401px) and (max-device-width : 2400px){ */
-    @media only screen and (min-device-width : 1401px) {
+    @media screen and (min-width : 1401px) {
     .headContainer {
         margin-top: 100px;
         flex-direction: row;
     }
     
     .collageImgs {
-        width: auto;
         height: 240px;
         margin-left: 10px;
         position: relative;
@@ -463,8 +488,6 @@ footer {
     }
 
     .links {
-        position: relative;
-        align-self: flex-start;
         top: 0px;
         right: 10px;
     }
@@ -518,19 +541,16 @@ footer {
     
 
     .paperplane {
-        width: auto;
         height: 60px;
         margin-top: 5px;
     }
     
     .gitLogo {
-        width: auto;
         height: 60px;
         margin-top: 20px;
     }
     
     .linkedLogo {
-        width: auto;
         height: 50px;
         margin-top: 20px;
     }
@@ -538,5 +558,13 @@ footer {
     footer {
         font-size: 20px;
         line-height: 1.5;
+    }
+
+    .liveSite {
+        font-size: 20px;
+    }
+
+    .githubLink:hover {
+        font-size: 22px;
     }
 }
