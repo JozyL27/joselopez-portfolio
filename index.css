@@ -170,6 +170,29 @@ footer {
     cursor: pointer;
   }
 
+  .projectsContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .projectOneContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0px auto 255px auto;
+  }
+
+  .projectTwoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto 0px auto;
+  }
+
 
 /* Collage css */
 .fourpics {
@@ -466,6 +489,7 @@ footer {
     .githubLink:hover {
         font-size: 22px;
     }
+
 }
 
 
