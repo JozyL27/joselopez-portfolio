@@ -12,8 +12,8 @@ a {
 }
 
 .sideLink:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transition-duration: 0.4s;
+    text-shadow: 2px 2px 8px lightslategray;
   }
 
 li {
@@ -50,6 +50,7 @@ li {
     font-size: 13px;
     cursor: pointer;
     font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -97,6 +98,9 @@ li {
 
 .techContainer {
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .techpic {
@@ -114,6 +118,7 @@ li {
 .keeplyGitPic:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transition-duration: 0.4s;
+    border-radius: 30px;
   }
 
 .contactBegin {
@@ -193,6 +198,22 @@ footer {
     margin: 0px auto 0px auto;
   }
 
+  .reactLogo {
+      height: 75px;
+      width: auto;
+  }
+
+  .nodeLogo {
+      height: 75px;
+      width: auto;
+      margin-right: 5px;
+  }
+
+  .postgresLogo {
+      height: 60px;
+      width: auto;
+  }
+
 
 /* Collage css */
 .fourpics {
@@ -256,10 +277,6 @@ footer {
         margin-left: 0 auto;
     }
 
-    .sideLink {
-        font-size: 20px;
-    }
-
     .links {
         position: relative;
         align-self: flex-start;
@@ -303,7 +320,6 @@ footer {
 
 
 /* Tablets */
-/* @media only screen and (min-device-width : 600px) and (max-device-width : 1023px) { */
     @media screen and (min-width : 600px) {
 
     .headContainer {
@@ -394,7 +410,6 @@ footer {
 
 
 /* Small Laptops */
-/* @media only screen and (min-device-width : 1024px) and (max-device-width : 1400px) { */
     @media screen and (min-width : 1024px) {
     .headContainer {
         margin-top: 120px;
@@ -494,7 +509,6 @@ footer {
 
 
 /* Laptops / Desktops */
-/* @media only screen and (min-device-width : 1401px) and (max-device-width : 2400px){ */
     @media screen and (min-width : 1401px) {
     .headContainer {
         margin-top: 100px;
