@@ -11,9 +11,37 @@ a {
     color: black;
 }
 
+.sideLink {
+    align-self: flex-start;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .sideLink:hover {
-    transition-duration: 0.4s;
-    text-shadow: 2px 2px 8px lightslategray;
+    /* transition-duration: 0.4s; */
+    /* text-shadow: 2px 2px 8px lightslategray; */
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, rgb(48, 207, 208), rgb(51, 8, 103));
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 3s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @keyframes change {
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
   }
 
 li {
@@ -44,15 +72,6 @@ li {
     top: 38px;
     right: 10px;
 }
-
-.sideLink {
-    align-self: flex-start;
-    font-size: 13px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 20px;
-}
-
 
 .descriptionParas {
     font-size: 16px;
@@ -332,16 +351,25 @@ footer {
 
     .githubLink {
         cursor: pointer;
-        color: rgb(0,204,0);
+        /* color: rgb(0,204,0); */
+            /* begin */
+        color: #fff;
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, rgb(48, 207, 208), rgb(51, 8, 103));
+        background-size: 400% 400%;
+        position: relative;
+        animation: change 3s ease-in-out infinite;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .githubLink:hover {
         transition-duration: 0.4s;
         cursor: pointer;
         font-size: large;
-        background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        /* background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent; */
       }
 
 
