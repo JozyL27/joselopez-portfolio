@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
 }
 
 /* Mobile Phones */ 
@@ -361,12 +362,13 @@ footer {
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        transition-duration: 0.4s;
     }
 
     .githubLink:hover {
-        transition-duration: 0.4s;
+        /* transition-duration: 0.4s; */
         cursor: pointer;
-        font-size: large;
+        /* font-size: large; */
         /* background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; */
@@ -556,7 +558,7 @@ footer {
     }
 
     .githubLink:hover {
-        font-size: 22px;
+        /* font-size: 22px; */
     }
 
 }
@@ -657,6 +659,6 @@ footer {
     }
 
     .githubLink:hover {
-        font-size: 22px;
+        /* font-size: 22px; */
     }
 }
