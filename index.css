@@ -79,16 +79,15 @@ li {
 .firstPara {
     text-align: center;
     line-height: 1.5;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .projectsBegin {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 290px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 70px;
+    margin: 290px auto 70px auto;
 }
 
 .keeplyPicture {
@@ -147,7 +146,6 @@ li {
     margin: 430px auto 15px auto;
 }
 
-
 .contactContainer {
     display: flex;
     justify-content: space-around;
@@ -155,7 +153,6 @@ li {
     flex-direction: column;
     margin-bottom: 300px;
 }
-
 
 .paperplane {
     width: auto;
@@ -456,10 +453,6 @@ footer {
     }
 
 }
-
-
-
-
 
 
 /* Small Laptops */
